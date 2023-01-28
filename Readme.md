@@ -1,3 +1,3 @@
 # computer-programming
 learnig computer coding
-computer-programming is a repository for learnign puporses
+computer-programming is a repository created for learning .
