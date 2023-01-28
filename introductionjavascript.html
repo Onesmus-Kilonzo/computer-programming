@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+</head>
+<body>
+	<button type="button" onclick="document.getElementById('change').style.display ='none'">click to hide </button>
+	<button type="button" onclick="document.getElementById('change').style.display='block'">click to display </button> 
+	<h1 id="change">It is great that manchester won yesterday.Hope they continue with the winning streak.</h1>
+	<p>javascript can change the content of HTML </p>
+	<button type="button" onclick="document.getElementById('change').innerHTML ='manchester United is the biggest football club in the entire world'">click me</button><br><!--this uses javascript to change the content of the html element-->
+	<button onclick="document.getElementById('change').style.fontSize='45px'">click to change font size</button>
+    <button onclick="document.getElementById('light').src='light.png'">click to lighten</button><!--this uses javascript to change the attribute of the html element-->
+	<img id="light" src="light2.png" style="width:200px;">
+	<button onclick="document.getElementById('light').src='dark.jpg'">click to darken</button>
+	<button type="button" onclick="myFunction()">click to change again</button>
+	<script src="myscript.js"></script>
+
+</body>
+</html>
